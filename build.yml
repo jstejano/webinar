@@ -3,4 +3,4 @@ pool:
 container: mcr.microsoft.com/dotnet/core/sdk:3.1
 steps:
 - script: dotnet --version
-  displayName: Check version of .NET container
+  displayName: Check version of .NET container v1
