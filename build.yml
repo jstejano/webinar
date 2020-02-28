@@ -13,9 +13,9 @@ steps:
 - script: dotnet publish --configuration Release --output out/win-x64 --self-contained --runtime win-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=trueingleFile=true
   displayName:  Publish .Net app for Windows
   workingDirectory:  ./app/ 
- - script: dotnet publish --configuration Release --output out/linux-x64 --self-contained --runtime linux-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=trueingleFile=true
+- script: dotnet publish --configuration Release --output out/linux-x64 --self-contained --runtime linux-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=trueingleFile=true
   displayName:  Publish .Net app for Linux
   workingDirectory:  ./app/ 
- - script: dotnet publish --configuration Release --output out/osx-x64 --self-contained --runtime osx-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=trueingleFile=true
+- script: dotnet publish --configuration Release --output out/osx-x64 --self-contained --runtime osx-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=trueingleFile=true
   displayName:  Publish .Net app for MacOS
   workingDirectory:  ./app/ 
